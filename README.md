@@ -1,8 +1,7 @@
 # Image-to-ascii
 Python script, filter an image to ascii art
 
-Made for course in https://www.geeksforgeeks.org/machine-learning/?ref=rightbarsticky
-
+Made for course in https://www.geeksforgeeks.org/converting-image-ascii-image-python
 ---------------------------------------------------------------------------------------------------
 Uso:
 El programa convierte una imagen en un arte ASCII. El usuario proporciona una imagen de entrada por consola 
