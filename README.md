@@ -1,7 +1,7 @@
 # Image-to-ascii
 Python script, filter an image to ascii art
 
-Made for course in https://www.geeksforgeeks.org/converting-image-ascii-image-python/
+Made for course in https://www.geeksforgeeks.org/machine-learning/?ref=rightbarsticky
 
 ---------------------------------------------------------------------------------------------------
 Uso:
