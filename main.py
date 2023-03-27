@@ -22,11 +22,10 @@ def getAverageL(imagen):
  
     # obtener promedio
     return np.average(im.reshape(w*h))
-
+   
+#Dada la imagen y las dimensiones (filas, columnas) devuelve una lista de imágenes m*n
 def turnToAscii(nombreArchivo, columnas, escala, moreLevels):
-    """
-    Dada la imagen y las dimensiones (filas, columnas) devuelve una lista de imágenes m*n
-    """
+    
     # declarar variables globales
     global gscale1, gscale2
  
