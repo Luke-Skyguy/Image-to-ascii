@@ -91,14 +91,14 @@ def turnToAscii(nombreArchivo, columnas, escala, moreLevels):
 # Agrega el carácter ASCII a la cadena
             imagenASCII[j] += gsval
 
-# Retorna la imagen en formato de texto
+# Devuelve la imagen en formato de texto
             return imagenASCII
 
 
 # Función main()
 def main():
-    # Crea un analizador de argumentos
-    descStr = "Este programa convierte una imagen en arte ASCII."
+    # Especifica las condiciones de los argumentos
+    descStr = "Convierte tu imagen a ASCII."
     parser = argparse.ArgumentParser(description=descStr)
 
     parser.add_argument('--file', dest='imgFile', required=True)
