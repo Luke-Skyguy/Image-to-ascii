@@ -17,6 +17,7 @@ def getAverageL(imagen):
     im = np.array(imagen)
  
     # obtener forma
+    
     w,h = im.shape
  
     # obtener promedio
@@ -40,7 +41,7 @@ def turnToAscii(nombreArchivo, columnas, escala, moreLevels):
     w = W/columnas
  
     # calcular altura de la sección basada en la relación de aspecto y la escala
-    h = w/escala
+    h = w/escala * 0.75
  
     # calcular número de filas
     filas = int(H/h)
