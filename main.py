@@ -3,8 +3,6 @@ import numpy as np
 from PIL import Image
 
 from methods import getAverageL, turnToAscii
-# valores de nivel de escala de grises.
-# 70% gris
 
 # Función main()
 def main():
